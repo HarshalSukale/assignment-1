@@ -3,119 +3,170 @@
 <head>
   <title>Harshal's Resume</title>
   <link rel="icon" type="image/x-icon" href="bapu.ico">
-  <link rel="stylesheet" href="design.css">
   <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    header h1 {
+      margin-top: 0;
+    }
+    
+    main {
+      padding: 20px;
+    }
+    
+    section {
+      margin-bottom: 30px;
+    }
+    
+    h2 {
+      color: #333;
+    }
+    
     table {
       width: 100%;
       border-collapse: collapse;
-      border: 1px solid black;
+      border: 1px solid #ddd;
     }
+    
     th, td {
-      padding: 8px;
+      padding: 10px;
       text-align: left;
-      border-bottom: 1px solid #00000000;
-      border: 1px solid black;
-
+      border-bottom: 1px solid #ddd;
     }
     
-#myHeader {
-  background-color: lightgreen;
-  color: black;
-  max-width: 250px;
-  padding: 10px;
-  text-align: center;
-} 
-p.dashed {border-style: dashed;}
-
-    </style>
+    th {
+      background-color: #f2f2f2;
+    }
     
-
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+    
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    iframe {
+      width: 100%;
+      height: 300px;
+      border: none;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1 id="myHeader">Harshal Sukale</h1>
+    <h1>Harshal Sukale</h1>
     <img src="download.png" alt="Profile Picture" width="150" height="150">
-    <p style="font-size: large;">Software Engineer</p>
-    <p style="font-size: large;">Harshal Sukale | 9172691064 | LinkedIn: harshalsukale 
-    </p>
-    <iframe src="file.html" style="height:500px;width:500px" title="Iframe Example"></iframe>
-    <iframe src="form.html" style="height: 200px;width: 300px;"></iframe>
+    <p>Software Engineer</p>
+    <p>Harshal Sukale | 9172691064 | LinkedIn: harshalsukale</p>
   </header>
 
   <main>
-    ## Summary
-    <h5 style="color:greenyellow ;font-style: italic;font-size: large;" >Software engineer with a strong background in full-stack web development. Proficient in JavaScript, React, Node.js, and SQL. Passionate about creating efficient and user-friendly applications.</h5>
+    <section>
+      <h2>Summary</h2>
+      <p>Software engineer with a strong background in full-stack web development. Proficient in JavaScript, React, Node.js, and SQL. Passionate about creating efficient and user-friendly applications.</p>
+    </section>
 
-    ## Education
-    <table>
-      <tr>
-        <th>Degree</th>
-        <th>Institution</th>
-        <th>Location</th>
-        <th>Graduation Date</th>
-        <th>GPA</th>
-      </tr>
-      <tr>
-        <td>Bachelor of Science in Computer Science</td>
-        <td>MIT WPU</td>
-        <td>Pune, Maharashtra</td>
-        <td>May 2023</td>
-        <td>3.8/4.0</td>
-      </tr>
-    </table>
+    <section>
+      <h2>Education</h2>
+      <table>
+        <tr>
+          <th>Degree</th>
+          <th>Institution</th>
+          <th>Location</th>
+          <th>Graduation Date</th>
+          <th>GPA</th>
+        </tr>
+        <tr>
+          <td>Bachelor of Science in Computer Science</td>
+          <td>MIT WPU</td>
+          <td>Pune, Maharashtra</td>
+          <td>May 2023</td>
+          <td>3.8/4.0</td>
+        </tr>
+      </table>
+    </section>
 
+    <section>
+      <h2>Work Experience</h2>
+      <table>
+        <tr>
+          <th>Position</th>
+          <th>Company</th>
+          <th>Duration</th>
+          <th>Responsibilities</th>
+        </tr>
+        <tr>
+          <td>Software Engineer</td>
+          <td>Microsoft</td>
+          <td>June 2023 - Present</td>
+          <td>
+            <ul>
+              <li>Developed and maintained web applications using React and Node.js</li>
+              <li>Collaborated with cross-functional teams to design and implement new features</li>
+              <li>Optimized application performance and scalability</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>Intern</td>
+          <td>Example Inc.</td>
+          <td>May 2020 - August 2020</td>
+          <td>
+            <ul>
+              <li>Assisted in the development of a RESTful API using Node.js and Express</li>
+              <li>Participated in code reviews and pair programming sessions</li>
+              <li>Gained experience in agile development methodologies</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </section>
 
-    ## Work Experience
-    <table>
-      <tr>
-        <th>Position</th>
-        <th>Company</th>
-        <th>Duration</th>
-        <th>Responsibilities</th>
-      </tr>
-      <tr>
-        <td>Software Engineer</td>
-        <td>Microsoft</td>
-        <td>June 2023 - Present</td>
-        <td>
-          <ul>
-            <li>Developed and maintained web applications using React and Node.js</li>
-            <li>Collaborated with cross-functional teams to design and implement new features</li>
-            <li>Optimized application performance and scalability</li>
-          </ul>
-        </td>
-      </tr>
-      <tr>
-        <td>Intern</td>
-        <td>Example Inc.</td>
-        <td>May 2020 - August 2020</td>
-        <td>
-          <ul>
-            <li>Assisted in the development of a RESTful API using Node.js and Express</li>
-            <li>Participated in code reviews and pair programming sessions</li>
-            <li>Gained experience in agile development methodologies</li>
-          </ul>
-        </td>
-      </tr>
-    </table>
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>Programming Languages: JavaScript, Python, SQL</li>
+        <li>Frameworks and Libraries: React, Node.js, Express, jQuery</li>
+        <li>Tools: Git, GitHub, VS Code, Sublime text</li>
+      </ul>
+    </section>
 
-    ## Skills
-    <ul>
-        <li> Programming Languages: JavaScript, Python, SQL</li>
-        <li> Frameworks and Libraries: React, Node.js, Express, jQuery</li>
-        <li> Tools: Git, GitHub, VS Code, Sublime text</li>
-    </ul>
-
-    ## Interests
-    <ul>
-    <li>Open-source software </li>
-    <li>Artificial intelligence and machine learning</li>
-    <li>Hiking and outdoor adventures</li>
-    <li>Playing Games</li>
+    <section>
+      <h2>Interests</h2>
+      <ul>
+        <li>Open-source software</li>
+        <li>Artificial intelligence and machine learning</li>
+        <li>Hiking and outdoor adventures</li>
+        <li>Playing Games</li>
+      </ul>
+    </section>
+    
+    <section>
+      <h2>LinkedIn Profile</h2>
+      <iframe src="file.html"style="height:200px;width:300px;"></iframe>
+    </section>
   </main>
 
   <footer>
-    <p>Last updated: July 16, 2024</p>
+    <p style="align-content: center;">Last updated: July 16, 2024</p>
+    <iframe src="form.html" style="height: 200px;width: 300px;"></iframe>
+
   </footer>
 </body>
 </html>
